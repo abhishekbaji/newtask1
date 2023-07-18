@@ -1657,3 +1657,12 @@ text-align: center;
   padding-right: 0;
 }
 }
+@media only screen and (min-width: 1440px){
+  .arrows {
+    width: 59px;
+    margin-top: -371px;
+  
+    margin-left: 1220px;
+    position: relative;
+}
+}
