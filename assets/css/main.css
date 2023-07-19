@@ -1575,10 +1575,10 @@ div.overlay-blue:hover {
 .txt-div{
 text-align: center;
 }
-  .slider-wrapper div {
-    position: relative;
-    display: inline-block;
-    width: 341px;
+.slider-wrapper div {
+  position: relative;
+  display: inline-block;
+  width: 375px;
 }
 .slide-image img {
   width: auto;
@@ -1657,13 +1657,19 @@ text-align: center;
   padding-right: 0;
 }
 }
-@media only screen and (min-width: 1440px) and (orientation: landscape){
+@media only screen and (min-width: 1440px){
   .arrows {
     width: 59px;
     margin-top: -371px;
   
     margin-left: 1220px;
     position: relative;
+}
+.slide-content {
+  width: 725px;
+  /* color: #fff; */
+  padding: 0px 128px 10px 80px;
+  overflow: hidden;
 }
 .card2 {
   margin: 1%;
