@@ -45,7 +45,7 @@ html[xmlns] .clearfix {
 }
 
 ul, li {
-  padding: 4px 0px 0px 20px;
+  padding: 4px 0px 0px 2px;
   margin: 0;
   list-style: none;
 }
@@ -90,9 +90,10 @@ ul {
   margin-bottom: 0px;
 }
 .card1{
-  max-width: 100%;
+  max-width: 90%;
   margin-top: 10px;
 }
+
 .img-width{
   width: 180px;
 }
@@ -1481,7 +1482,12 @@ div.overlay-blue:hover {
   padding: 6px;
   border-radius: 4px
 }
+.button1:hover{
+  background: #fff0;
+  border: 2px solid #000;
+  color: #000 !important;
 
+}
 
 * Style the tab */
 .tab {
@@ -1511,6 +1517,7 @@ div.overlay-blue:hover {
 .tab button.active {
   background-color: #100f0f;
   color: #fff;
+  border-radius: 4px;
 }
 .icons{
   width: 140px;
@@ -1519,7 +1526,7 @@ div.overlay-blue:hover {
   text-align: end;
   }
 .single-menu {
-  background-color: #f6f5f58c;
+  background-color: #ffffff;
   box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
   border-radius: 10px;
   padding: 8px 19px;
@@ -1568,11 +1575,23 @@ div.overlay-blue:hover {
     transition: 0.3s;
     font-size: 10px;
 }
+.card1 {
+  max-width: 100%;
+  margin-top: 10px;
+}
 .t1 {
   padding: 9px;
   font-size: 14px;
   margin-left: auto;
   color: #fff !important;
+}
+.single-menu {
+  background-color: #f6f5f58c;
+  box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+  border-radius: 10px;
+  padding: 8px 19px;
+  margin-bottom: 30px;
+  width: 100%;
 }
 .txt-div{
 text-align: center;
@@ -1668,10 +1687,10 @@ text-align: center;
     position: relative;
 }
 .slide-content {
-    width: 737px !important;
-    /* color: #fff; */
-    padding: 0px 142px 10px 80px;
-    overflow: hidden;
+  width: 742px;
+  /* color: #fff; */
+  padding: 10px 155px 10px 80px;
+  overflow: hidden;
 }
 .card2 {
   margin: 1%;
