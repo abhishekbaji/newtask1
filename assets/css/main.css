@@ -1668,10 +1668,10 @@ text-align: center;
     position: relative;
 }
 .slide-content {
-  width: 742px;
-  /* color: #fff; */
-  padding: 10px 155px 10px 80px;
-  overflow: hidden;
+    width: 737px !important;
+    /* color: #fff; */
+    padding: 0px 142px 10px 80px;
+    overflow: hidden;
 }
 .card2 {
   margin: 1%;
