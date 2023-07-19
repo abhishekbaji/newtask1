@@ -45,7 +45,7 @@ html[xmlns] .clearfix {
 }
 
 ul, li {
-  padding: 4px 0px 0px 2px;
+  padding: 6px 0px 0px 2px;
   margin: 0;
   list-style: none;
 }
@@ -368,7 +368,7 @@ body {
 .header-area .main-nav .nav {
   float: right;
   margin-top: 30px;
-  margin-right: 0px;
+  margin-right: -1px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -382,7 +382,8 @@ body {
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 400;
-  font-size: 14px;
+  margin-right: 18px;
+  font-size: 16px;
   color: #2a2a2a;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
